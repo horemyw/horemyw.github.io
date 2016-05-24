@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>css变形练习</title>
+    <style>
+    .box {
+        background-color: brown;
+        border-radius: 10px;
+        text-align: center;
+        height: 100px;
+        width: 100px;
+        line-height: 100px;
+        float: left;
+        margin: 50px;
+        color: white;
+        .box1 {
+            transform: rotate(45deg);
+        }
+        .box2 {
+            transform: rotate(45deg);
+        }
+        .box3 {
+            transform: scale(0.5) rotate(45deg);
+        }
+        .box4 {
+            transform: scale(0.5, 0.5);
+        }
+    }
+    </style>
+</head>
+
+<body>
+    <h1>css变形练习</h1>
+    <div class="clearfix">
+        <h2>2d旋转</h2>
+        <div class="box box1">box1</div>
+        <div class="box box2">box2</div>
+    </div>
+    <div class="clearfix">
+        <h2>2d缩放</h2>
+        <div class="box box3">box3</div>
+        <div class="box box4">box4</div>
+    </div>
+</body>
+
+</html>
